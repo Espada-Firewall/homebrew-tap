@@ -15,13 +15,13 @@
 class Espada < Formula
   desc "Self-hosted infrastructure agent — the Agent Action Firewall"
   homepage "https://github.com/Espada-Firewall/homebrew-tap"
-  version "2026.1.48"
+  version "2026.1.49"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Espada-Firewall/homebrew-tap/releases/download/v#{version}/espada-#{version}-darwin-arm64.tar.gz"
-      sha256 "9254bb5bd5347744c4774b6f7c66ffe9952f02edf17ef9c10db4e00021855fec"
+      sha256 "84b7ec389df9dc25fa123f72b0b92fbb9035867fd0fa4ba498640560a20fd460"
     end
   end
 
