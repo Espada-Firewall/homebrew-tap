@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-# Espada — self-hosted infrastructure agent. The Agent Action Firewall.
+# Espada — a self-hosted control plane for running AI privately on your own infrastructure.
 #
 # This formula installs a pre-built, platform-specific tarball published
 # to this tap's GitHub releases. The tarball is fully self-contained —
@@ -13,7 +13,7 @@
 # this repo, then bumps `version` + `sha256` below and pushes.
 
 class Espada < Formula
-  desc "Self-hosted infrastructure agent — the Agent Action Firewall"
+  desc "Self-hosted control plane for running AI privately on your own infrastructure"
   homepage "https://github.com/Espada-Firewall/homebrew-tap"
   version "2026.1.67"
   license "MIT"
