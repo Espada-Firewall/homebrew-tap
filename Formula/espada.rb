@@ -15,13 +15,13 @@
 class Espada < Formula
   desc "Self-hosted control plane for running AI privately on your own infrastructure"
   homepage "https://github.com/Espada-Firewall/homebrew-tap"
-  version "2026.1.72"
+  version "2026.1.73"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Espada-Firewall/homebrew-tap/releases/download/v#{version}/espada-#{version}-darwin-arm64.tar.gz"
-      sha256 "8761157217d1327d5ffec01ef46de2db97e319993571fd829128b5e218f18aae"
+      sha256 "e51d49a3cb2701078f2101d2a0846a2ebb81cdedaa8ffbf35832a503d082bbee"
     end
   end
 
